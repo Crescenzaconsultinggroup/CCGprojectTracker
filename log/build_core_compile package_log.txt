@@ -1,0 +1,14 @@
+Buildfile: C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\run\bin
+    [javac] Note: C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\javasource\system\UserActionsRegistrar.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+package:
+      [jar] Building jar: C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+

@@ -1,0 +1,92 @@
+{
+  "RuntimeVersion": "9.5.0.25874",
+  "ProjectID": "48bc9d7f-8c8e-4534-a0e1-3d44bcfdff2c",
+  "ProjectName": "CCG Project Tracking",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "User"
+    }
+  },
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "Constants": [
+    {
+      "Name": "Atlas_UI_Resources.Atlas_UI_Resources_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": " 2.7.0"
+    },
+    {
+      "Name": "ExcelImporter.EnableExternalEntities",
+      "Type": "Boolean",
+      "Description": "Enables the parsing of external entities from the DTD. This is turned off by default.",
+      "DefaultValue": "False"
+    },
+    {
+      "Name": "ExcelImporter.ParseEmptyCells",
+      "Type": "Boolean",
+      "Description": "Set this constant to True to allow parsing empty cells with microflow when importing Excel files.\r\n\r\nIf True, \"parse with\" microflow will be called for empty cells.\r\nIf False (default), the microflow will be called only for cells with data.",
+      "DefaultValue": "False"
+    }
+  ],
+  "ScheduledEvents": [],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "DataBrokerConfiguration": {
+    "publishedServices": []
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api-doc/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    }
+  ]
+}

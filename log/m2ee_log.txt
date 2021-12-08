@@ -1,0 +1,6 @@
+[rtlauncher:container$] INFO Evictions for component 'project-userlib':
+Evicted C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\model\lib\userlib\org.apache.commons.commons-compress-1.19.jar by C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\model\lib\userlib\org.apache.commons.commons-compress-1.21.jar.
+[rtlauncher:container$] INFO Container start took 3963. Ready to accept admin requests.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+
+

@@ -1,0 +1,10 @@
+Buildfile: C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 41 files to C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment
+     [copy] Copying 39 files to C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\model\lib\userlib
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

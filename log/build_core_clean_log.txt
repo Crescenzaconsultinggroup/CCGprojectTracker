@@ -1,0 +1,8 @@
+Buildfile: C:\Users\akaura1\Documents\Mendix\CCG Project Tracking-main_3\deployment\build_core.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
